@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
         <div className="flex flex-col min-h-screen">
             <Header />
-            <main className="flex-grow">
+            <main className="flex flex-grow overflow-y-scroll">
                 <Component {...pageProps} />
             </main>
             <Footer />
