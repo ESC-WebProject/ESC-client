@@ -7,11 +7,16 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: {    
+      boxShadow:{
+        'blur-outline': '0 0 0 3px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.3)', 
+      },  
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         customGray: '#D9D9D9',
+        brightBlue : '#003CC4',
+        darkBlue : '#12003E',
       },
     },
   },
