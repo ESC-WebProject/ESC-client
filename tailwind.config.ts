@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {    
       boxShadow:{
-        'blur-outline': '0 0 0 3px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.3)', 
-      },  
+        'blur-outline': '0 0 0 2px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.3)', 
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
