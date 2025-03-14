@@ -2,13 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  font-family: 'Pretendard-Bold';
-  src: url('../fonts/Pretendard-Bold.woff')
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("../fonts/Pretendard-Bold.woff");
 }
-@font-face{
-  font-family: 'Pretendard-SemiBold';
-  src: url('../fonts/Pretendard-SemiBold.woff')
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("../fonts/Pretendard-SemiBold.woff");
+}
+@font-face {
+  font-family: "Pretendard-Medium";
+  src: url("../fonts/Pretendard-Medium.woff");
 }
 :root {
   --background: #ffffff;
