@@ -13,7 +13,7 @@
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.9.3",
     "axios": "^1.7.9",
-    "next": "15.1.4",
+    "next": "^15.1.4",
     "react": "^19.0.0",
     "react-calendar": "^5.1.0",
     "react-dom": "^19.0.0",
@@ -22,9 +22,11 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/navermaps": "^3.7.8",
+    "@types/next": "^8.0.7",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
     "@types/tailwindcss": "^3.0.11",
     "eslint": "^9",
     "eslint-config-next": "15.1.4",
