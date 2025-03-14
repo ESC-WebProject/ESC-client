@@ -14,18 +14,18 @@ import img15 from '../images/groupPhoto/15.jpg'
 
 
 const HomePage = () => {
-    return (     
-        <div className="flex flex-col mt-14 mb-14 overflow-auto">
+    return (
+        <div className="flex flex-col mt-14 mb-60 box-border">
             <div className="w-screen h-screen bg-cover bg-center flex flex-col items-center justify-center" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${img1.src})` }}>
                 <div className="text-center text-5xl font-['Pretendard-Bold']">
-                    <span className="text-brightBlue">E</span><span className='text-white'>ngineering</span><br/>
-                    <span className="text-brightBlue">S</span><span className='text-white'>tudents</span><br/>
-                    <span className="text-brightBlue">C</span><span className='text-white'>ommunication</span>
+                    <span className="text-lightBlue">E</span><span className='text-white'>ngineering</span><br/>
+                    <span className="text-lightBlue">S</span><span className='text-white'>tudents</span><br/>
+                    <span className="text-lightBlue">C</span><span className='text-white'>ommunication</span>
                 </div>
                 <div className="mt-4 text-center text-xl font-['Pretendard-Bold']">
-                    <span className="text-brightBlue">ESC</span>
+                    <span className="text-lightBlue">ESC</span>
                     <span className='text-white'>와 함께 더 나은 내일을 설계하세요. 당신의 이야기가</span>
-                    <span className="text-brightBlue">ESC</span>
+                    <span className="text-lightBlue">ESC</span>
                     <span className='text-white'>의 이야기가 됩니다.</span>
                 </div>
             </div>
@@ -47,11 +47,11 @@ const HomePage = () => {
                         <div className='h-48 bg-no-repeat bg-center bg-cover rounded-t-xl' style={{backgroundImage:`url(${img7.src})`}}></div>
                         <div className="h-20 mt-4"><div className="font-['Pretendard-SemiBold'] text-xl">홈 커밍 데이</div><div className="font-['Pretendard-Light']">내용</div></div>
                     </div>
-                    <div className='flex flex-col rounded-xl text-center shadow-blur-outline p-0 w-full'>                    
+                    <div className='flex flex-col rounded-xl text-center shadow-blur-outline p-0 w-full'>
                         <div className=' h-48 bg-no-repeat bg-center bg-cover rounded-t-xl' style={{backgroundImage:`url(${img9.src})`}}></div>
                         <div className='h-20 mt-4'><div className="font-['Pretendard-SemiBold'] text-xl">MT</div><div className="font-['Pretendard-Light']">내용</div></div>
                     </div>
-                    <div className='flex flex-col rounded-xl text-center shadow-blur-outline p-0 w-full'>                     
+                    <div className='flex flex-col rounded-xl text-center shadow-blur-outline p-0 w-full'>
                         <div className=' h-48 bg-no-repeat bg-center bg-cover rounded-t-xl' style={{backgroundImage:`url(${img15.src})`}}></div>
                         <div className='h-20 mt-4'><div className="font-['Pretendard-SemiBold'] text-xl">회식</div><div className="font-['Pretendard-Light']">내용</div></div>
                     </div>
@@ -84,7 +84,7 @@ const HomePage = () => {
                     </button>
                 </div>
             </div>
-            
+
             {/* <div className="flex justify-center w-full mb-20">
                 <div className="animate-slide mx-4 flex flex-col items-center">
                     <div>첫 번째 애니메이션 div</div>
