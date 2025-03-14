@@ -42,7 +42,7 @@ const HomePage = () => {
                 <div className="text-3xl font-['Pretendard-SemiBold'] mx-auto my-4 ">
                     활동
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-3 mb-8 gap-8 px-40 w-full mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-3 mb-8 gap-8 px-40 w-full mx-auto w-1/2">
                     <div className='flex flex-col rounded-xl text-center shadow-blur-outline p-0 w-full'>
                         <div className='h-48 bg-no-repeat bg-center bg-cover rounded-t-xl' style={{backgroundImage:`url(${img7.src})`}}></div>
                         <div className="h-20 mt-4"><div className="font-['Pretendard-SemiBold'] text-xl">홈 커밍 데이</div><div className="font-['Pretendard-Light']">내용</div></div>
