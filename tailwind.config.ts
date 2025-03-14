@@ -2,6 +2,8 @@ import { transform } from 'next/dist/build/swc/generated-native';
 import type { Config } from "tailwindcss";
 
 export default {
+
+  
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -25,10 +27,18 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         customGray: '#D9D9D9',
-        brightBlue : '#003CC4',
-        darkBlue : '#12003E',
+        lightBlue: '#003CC4', 
+        darkBlue: '#12003E',   
       },
+
+      fontFamily: {
+        pretendard: "Pretendard-Regular, sans-serif", // css서 사용할 폰트명: "사용할 폰트"
+        hambak: "SF_HambakSnow, sans-serif", // css서 사용할 폰트명: "사용할 폰트"
+      },
+
     },
   },
+
   plugins: [],
 } satisfies Config;
+
