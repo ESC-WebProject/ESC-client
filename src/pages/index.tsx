@@ -42,7 +42,7 @@ const HomePage = () => {
                 <div className="text-3xl font-['Pretendard-SemiBold'] mx-auto my-4 ">
                     활동
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-3 mb-8 gap-8 px-40 w-full mx-auto w-1/2">
+                <div className="grid grid-cols-1 lg:grid-cols-3 mb-8 gap-8 px-40 mx-auto w-1/2">
                     <div className='flex flex-col rounded-xl text-center shadow-blur-outline p-0 w-full'>
                         <div className='h-48 bg-no-repeat bg-center bg-cover rounded-t-xl' style={{backgroundImage:`url(${img7.src})`}}></div>
                         <div className="h-20 mt-4"><div className="font-['Pretendard-SemiBold'] text-xl">홈 커밍 데이</div><div className="font-['Pretendard-Light']">내용</div></div>
@@ -61,7 +61,7 @@ const HomePage = () => {
                         type="button" 
                         className="w-32 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                     >
-                        버튼
+                        더 알아보기
                     </button>
                 </div>
             </div>
@@ -69,7 +69,7 @@ const HomePage = () => {
                 <div className="text-3xl font-['Pretendard-SemiBold'] mx-auto my-4">
                     모집
                 </div>
-                <div className="text-left mx-auto mb-8 max-w-screen-lg text-xl font-['Pretendard-Light']">
+                <div className="text-left mx-auto mb-8 max-w-screen-lg text-xl font-['Pretendard-SemiBold']">
                 우리 ESC는 컴퓨터학부 학생들이 공학이라는 큰 틀 안에서 다양한 전공, 관심사, 그리고 목표를 가진 학생들이 모여 자유롭게 아이디어를 공유하고 지식을 나누며 함께 성장하는 공간입니다.<br/>
                 ESC는 지식의 공유를 넘어 학문적 깊이와 넓이를 확장하고, 현실에서 유용한 아이디어를 프로젝트를 통해 실현하는 것을 목표로 합니다. 또한, 기술적 도전과 성취를 넘어 컴퓨터학부 학생들을 위한 따뜻한 커뮤니티와 쉼터를 만들어가고자 합니다.<br/>
                 우리는 서로를 격려하고 응원하며, 같은 목표를 향해 나아가는 동료로서 함께 성장합니다.<br/>
